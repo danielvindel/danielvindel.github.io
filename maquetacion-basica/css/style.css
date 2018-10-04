@@ -1,0 +1,54 @@
+
+body {
+	background: #3a84;
+	background-image: url(../img/Escudo.png);
+}
+header {
+	background: #734894;
+	text-align: center;
+	border: 1px solid #898989;
+	padding: 30px 30px;
+	margin-right: 35%;
+	margin-bottom: 2px;
+	background: #ffff;
+	margin-bottom: 5px;
+	font-size: 30px;
+	font-style: Arial;
+}
+#sidebar {
+	float: right;
+	background-image: url(../img/10.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 470px;
+	height: 555px;
+	margin-bottom: 5px;
+}
+div a {
+	color: #fff;
+	font-size: 40px;
+}
+nav{
+	text-align: center;
+	border: 1px solid #898989;
+	margin-right: 35%;
+	margin-bottom: 2px;
+	background: #BDC3C7  ;
+	margin-bottom: 5px;
+}
+main {
+	border: 1px solid #898989;
+	margin-right: 35%;
+	background: #ffff;
+	margin-bottom: 5px;
+}
+main img {
+	width: 150px;
+	height: auto;
+}
+footer {
+	padding: 10px;
+	text-align: right;
+	border: 1px solid #898989;
+	background: #5EE1F1;
+}
