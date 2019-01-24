@@ -1,0 +1,39 @@
+$(document).ready(function(){
+    $("#btn-perros").click(function(){
+        $(".perro").show();
+        $(".gato").hide();
+        $(".pez").hide();
+        $(".1").addClass("btn-success")
+        $(".2").removeClass("btn-success")
+        $(".3").removeClass("btn-success")
+        $(".4").removeClass("btn-success")
+    });
+    $("#btn-gatos").click(function(){
+        $(".gato").show();
+        $(".perro").hide();
+        $(".pez").hide();
+        $(".2").addClass("btn-success")
+        $(".3").removeClass("btn-success")
+        $(".1").removeClass("btn-success")
+        $(".4").removeClass("btn-success")
+    });
+    $("#btn-peces").click(function(){
+        $(".pez").show();
+        $(".perro").hide();
+        $(".gato").hide();
+        $(".3").addClass("btn-success")
+        $(".2").removeClass("btn-success")
+        $(".1").removeClass("btn-success")
+        $(".4").removeClass("btn-success")
+    });
+    $("#btn-eliminir").click(function(){
+        $(".pez").show();
+        $(".perro").show();
+        $(".gato").show();
+
+        $(".2").removeClass("btn-success")
+        $(".1").removeClass("btn-success")
+        $(".3").removeClass("btn-success")
+    });
+
+});
